@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ApanaStudy Clone</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <div id="mySidenav" class="sidenav">
+    
+    <a id="contact" style="font-size: large;">ONLINE</a>
+
+  </div>
+
+  <div id="id01" class="cont animate" style="display: none;">
+		<div class="imgcontainer">
+			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+      <h5>Online</h5>
+			<p>We are live and ready to chat with you now. Say something to start a live chat.</p>
+      <div id="chatMeBoxText"></div>
+      <textarea style="width: 100%;"></textarea>
+      
+				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				<button type="submit" class="sendbtn">Send</button>
+			</div>
+	</div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="./assets/img/logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" >
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#megatest">MEGA TEST</a></li>
+        <li><a href="#mocktest">MOCK TEST</a></li>
+        <li class="dropdown" > 
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#practice">PRACTICE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" style="background-color: #012548 !important; font-size: 12px; font-family: Montserrat, sans-serif;">
+            <li><a href="#">CIVIL SERVICES</a></li>
+            <li><a href="#">DEFENCE & POLICE</a></li>
+            <li><a href="#">TEACHING</a></li>
+            <li><a href="#">BANKING & INSURANCE</a></li>
+            <li><a href="#">SSC & RAILWAYS</a></li>
+            <li><a href="#">ENGGINEERING</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> 
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#practice">DAILY DOSE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" style="background-color:  #012548 !important; font-size: 12px; font-family: Montserrat, sans-serif;">
+            <li><a href="#">CURRENT AFFAIRS</a></li>
+            <li><a href="#">TODAY'S HISTORY</a></li>
+            <li><a href="#">THE HINDU NEWS</a></li>
+            <li><a href="#">VOCABULARY BOOSTER</a></li>
+            <li><a href="#">THE HINDU ANALYSIS</a></li>
+          </ul>
+        </li>
+        <li><a href="#dailyquiz">DAILY QUIZ</a></li>
+        <li><a href="#login">LOGIN</a></li>
+        <li><a href="#register">REGISTER</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-5">
+      <br><br>
+      <h1><b>Platform For Government Exam Preparation</b></h1><br><br>
+      <h2>Free Practice Questions, Exercises, Examwise & Topicwise Mock Tests for all Government Exams</h2>
+    </div>
+    <div class="col-sm-7">
+      
+        <img src="./assets/img/header-img.png" class="slideanim" style="max-width: 100%; height: auto;">
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="row slideanim">
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2 style="color: #fff;">35,00,000+ <br>Questions</h2>
+        </div>
+        <div class="panel-body">
+          <h4 style="text-align: justify;">Questions sorted in modules with topics and sub-topics, the learning is at new level.</h4>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2 style="color: #fff;">5,000+ <br>Mock Tests</h2>
+        </div>
+        <div class="panel-body">
+          <h4 style="text-align: justify;">Compete with others and to know your all India rank. Take mock tests Subject-wise, topic wise, exam wise.</h4>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2 style="color: #fff;">20,000+ <br>Flash Cards</h2>
+        </div>
+        <div class="panel-body">
+          <h4 style="text-align: justify;">Revise topics like never before. We have made a one-liner summary of all relevant topics and presented you in flashcards.</h4>
+        </div>
+      </div>      
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2 style="color: #fff;">80,000+<br>
+            Exercises</h2>
+        </div>
+        <div class="panel-body">
+          <h4 style="text-align: justify;">Dive into the ocean of exercises with unlimited questions.</h4>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+
+<!-- Features That -->
+<div class="container-fluid">
+  <div class="text-center bg-grey">
+    <h1 style="text-align: left; font-weight: bolder;">Features That Can Avail By Everyone</h1>
+    <h2 style="text-align: justify;">We are always with you, either you are preparing for government exams or want to improve your knowledge base.</h2>
+  </div>
+    <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+    <div id="ht1"></div>
+      <div class="panel panel-default text-center bg-c">
+        <div class="panel-body">
+          <h2>Actual Experience of Live Exams</h2>
+          <h4 style="text-align: justify;">Test your skills in Mock tests, live tests, and feel the excitement of a real-exam. Compare performance against national benchmarks and improve scores.</h4>
+        </div>
+      </div>
+      
+      <div class="panel panel-default text-center bg-c">
+        <div class="panel-body">
+          <h2>Our Most Comprehensive Payment option</h2>
+          <h4 style="text-align: justify;">We got you covered with our pay as you go pricing model, which will help you learn while considering your pocket budgets.</h4>        </div>
+      </div>
+    </div>   
+
+    <div class="col-sm-4 col-xs-12 ">
+      <div id="ht2"></div>
+      <div class="panel panel-default text-center bg-c">
+          <div class="panel-body">
+            <h2>Individually tailored, detailed review from AI</h2>
+            <h4 style="text-align: justify;">Understand your weakness, strengths, and everything you need to know to boost your rank and score.</h4>
+          </div>
+      </div>
+      
+      <div class="panel panel-default text-center bg-c">
+        <div class="panel-body">
+          <h2>Daily dose that actually works</h2>
+          <h4 style="text-align: justify;">Get updates on the latest current affairs and boost your vocabulary with us. Be on top of your friend's community, and learn new things every day.</h4>        </div>
+      </div>
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center bg-c">
+        <div class="panel-body">
+          <h2>One platform for all your doubts</h2>
+          <h4 style="text-align: justify;">Get answers to your doubts and questions in our community-based discussion forum.
+            Happy Doubts to you!!!</h4>
+        </div>
+      </div>   
+      
+      <div class="panel panel-default text-center bg-c">
+        <div class="panel-body">
+          <h2>Our Transparent Rank calculation algorithm</h2>
+          <h4 style="text-align: justify;">Attempt the Mock test and solve our Practice module to improve your all India rank and earn badges by unlocking new levels.</h4>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+
+<!-- AI in Live Action -->
+<div class="container-fluid bg-grey slideanim">
+  <div class="row">
+    <div class="col-sm-6">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./assets/img/confidence.svg" width="1200" height="700">
+              <h3>Confidence, Nervousness, and Struggle level</h3>
+              <p>hGain more confidence in solving more practice tests and get insights into self confidence and improve them. Don't be nervous, It's ok same mistakes in the practice time. So, do remember nothing struggles, it's all experiences of life.</p>
+          </div>
+    
+          <div class="item">
+            <img src="./assets/img/revision.svg" width="1200" height="700">
+              <h3>Revision and Delusions Analysis</h3>
+              <p>Revision is the most crucial thing for any exam. Know what and when to revise with our platform. Nothing is a misconception, it's called the wrong information.</p>
+          </div>
+        
+          <div class="item">
+            <img src="./assets/img/timemanagement.svg" width="1200" height="700">
+              <h3>Overall Question analysis</h3>
+              <p>The comprehensive report shows your effort and hard work with easy Al analysis. Daily Al report shows your daily performance and daily productivity. So from next time, invest your time according to exam time, not according to yourself.</p>     
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <h1>Check Our AI in Live Action</h1><br>
+      <h2 style="text-align: justify; text-transform: none;">Our reports are generated by Artificial Intelligence which gives you detailed information about your personality, test pattern, etc. which helps you analyze and improve yourself.</h2>
+    </div>
+  </div>
+</div>
+
+
+<!-- Exams we Help -->
+<div class="container-fluid">
+  <div >
+    <h1 style="text-align: left; font-weight: bolder;">Exams we Help You Conquer</h1>
+  </div>
+    <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+    <div id="ht1"></div>
+      <div class="panel panel-default text-center bg-c" style="position: relative; ">
+        <img src="./assets/img/bank.png" height="100%" width="100%" style="opacity: 0.5;">
+        <div class="text-block">
+          <h4 style="color: #fff; font-weight: bolder;">Banking &<br> Insurance</h4>
+        </div>
+        <div style="position:absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); text-align: justify; font-weight: bolder;">
+          Bank Of India ESIC Recruitment IBPS Clerk IBPS RRB IBPS SO Indian Bank POI PPB Recruitment LIC AAO LIC ADOLIC HFLNABARD Grade A Nainital BankNIACL AO NIACL Assistant OICLPNB SORBI Assistant Recruitment RBI Grade BSBI Clerk SBI PO SBI SOSEBI Grade A
+        </div>
+      </div>
+      
+      <div class="panel panel-default text-center bg-c" style="position: relative; top: 30px;">
+        <img src="./assets/img/upsc.jpeg" height="100%" width="100%" style="opacity: 0.5;">
+        <div class="text-block">
+          <h4 style="color: #fff; font-weight: bolder;">UPSC &<br> State PSC</h4>
+        </div>
+      
+      </div>
+    </div>   
+
+    <div class="col-sm-4 col-xs-12">
+      <div id="ht2"></div>
+        <div class="panel panel-default text-center bg-c" style="position: relative; ">
+          <img src="./assets/img/defence.jpeg" height="100%" width="100%" style="opacity: 0.5;">
+          <div class="text-block">
+            <h4 style="color: #fff; font-weight: bolder;">Defence<br> Police</h4>
+          </div>
+          
+        </div>
+        
+        <div class="panel panel-default text-center bg-c" style="position: relative; top: 30px;">
+          <img src="./assets/img/engg1.jpg" height="100%" width="100%" style="opacity: 0.5;">
+          <div class="text-block">
+            <h4 style="color: #fff; font-weight: bolder;">Engineering</h4>
+          </div>
+        
+        </div>
+      </div> 
+             
+      <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-default text-center bg-c" style="position: relative; ">
+            <img src="./assets/img/railway.jpeg" height="100%" width="100%" style="opacity: 0.5;">
+            <div class="text-block">
+              <h4 style="color: #fff; font-weight: bolder;">SSC &<br> Railways</h4>
+            </div>
+            
+          </div>
+          
+          <div class="panel panel-default text-center bg-c" style="position: relative; top: 30px;">
+            <img src="./assets/img/teach.jpeg" height="100%" width="100%" style="opacity: 0.5;">
+            <div class="text-block">
+              <h4 style="color: #fff; font-weight: bolder;">Teaching</h4>
+            </div>
+          
+          </div>
+        </div> 
+    
+    
+  </div>
+</div>
+
+
+<div class="container-fluid footerdiv slideanim">
+  <div class="row slideanim">
+    <div class="col-sm-3 col-xs-12">
+      <h2 style="text-align: left; color: #fff;">Top Products</h2>
+      <h4>
+        <a class="lk" href="#">Mega Test</a><br>
+        <a class="lk" href="#">Mock Test</a><br>
+        <a class="lk" href="#">Practice</a><br>
+        <a class="lk" href="#">Daily Quiz</a>
+
+      </h4>
+    </div>
+
+    <div class="col-sm-3 col-xs-12">
+      <h2 style="text-align: left; color: #fff;">Quick Links</h2>
+      <h4>
+        <a class="lk" href="#">Privacy Policy</a><br>
+        <a class="lk" href="#">Terms of Use</a><br>
+        <a class="lk" href="#">User Policy</a>
+
+      </h4>
+    </div>
+
+    <div class="col-sm-3 col-xs-12">
+      <h2 style="text-align: left; color: #fff;">Features</h2>
+      <h4>
+        <a class="lk" href="#">Current Affairs</a><br>
+        <a class="lk" href="#">Today's History</a><br>
+        <a class="lk" href="#">The Hindu News</a><br>
+        <a class="lk" href="#">The Hindu Analysis</a>
+
+      </h4>
+    </div>
+
+    <div class="col-sm-3 col-xs-12">
+      <h2 style="text-align: left; color: #fff;">Contacts</h2>
+      <h4 style="color: #fff;">
+        Email:<a class="lk" href="#">connect@apnastudy.com</a><br>
+        Phone:<a class="lk" href="#">+91-94743-49464</a><br>
+        WhatsApp:<a class="lk" href="#">+91-94743-49464</a>
+
+      </h4>
+    </div>
+  
+  </div>
+</div>
+
+
+<footer class="container-fluid">
+  
+  <div class="slideanim text-right">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-telegram"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+</div>
+</footer>
+
+<script type="text/javascript" src="./assets/js/script.js" ></script>
+
+</body>
+</html>
